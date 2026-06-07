@@ -23,13 +23,14 @@ Titan AI is the open-source autonomous desktop AI agent designed to act as a dig
 
 ## Windows development
 
-- Run both services on Windows with `start-dev.bat`
-- Or use `scripts\start-dev.bat` from PowerShell or CMD
+- Run installation once with `install.bat`
+- Start the app anytime with `run.bat`
+- Stop the app with `stop.bat`
 
 ## Notes
 
 - `backend/` now contains layered modules for Brain, Planning, Memory, Tool, Desktop Control, Browser Control, Voice, Vision, Learning, Security, Plugin, and Automation.
-- `start-dev.bat` launches the backend and frontend in separate Windows terminals.
+- Use `install.bat` to create the backend virtual environment and install both backend and frontend dependencies.
 
 ## Mission
 
