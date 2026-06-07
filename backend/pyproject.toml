@@ -1,0 +1,31 @@
+[project]
+name = "titan-ai-backend"
+version = "0.1.0"
+description = "Titan AI backend service"
+requires-python = ">=3.11"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Titan AI" }
+]
+
+[project.dependencies]
+fastapi = "^0.118.0"
+uvicorn = "^0.24.0"
+httpx = "^0.26.0"
+python-dotenv = "^1.0.0"
+sqlmodel = "^0.0.8"
+sqlite-utils = "^3.26"
+python-multipart = "^0.0.6"
+rich = "^14.0.0"
+openai = "^1.0.0"
+pydantic = "^2.9.0"
+watchfiles = "^0.20.0"
+numpy = "^2.0.0"
+opencv-python-headless = "^4.8.0.74"
+pyautogui = "^0.9.55"
+playwright = "^1.42.0"
+pytesseract = "^0.3.10"
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio", "black", "ruff"]
